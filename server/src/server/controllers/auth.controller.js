@@ -1,7 +1,7 @@
 const User = require("../../models/user");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const errorHandler = require("../middlewares/handleError");
+// const errorHandler = require("../middlewares/handleError");
 const { loginSchema, signUp } = require("../../validators/joiValidation");
 const generator = require("generate-password");
 require("dotenv").config();
