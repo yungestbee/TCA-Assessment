@@ -12,10 +12,12 @@ export const SignUpPage = () => {
     <>
       <div>
         <div className="login_form">
-            <div className="logo"><img src="" alt="" /></div>
+          <div className="logo">
+            <img src="" alt="" />
+          </div>
           {/* Login form container */}
           <form onSubmit={handleSubmit}>
-            <h3>Sign Up</h3>
+            <h3>Sign In</h3>
 
             {/* First Name input box */}
             <div className="input_box">
@@ -43,21 +45,19 @@ export const SignUpPage = () => {
 
             {/* Email input box */}
             <div className="input_box">
-              <label htmlFor="email">Email</label>
-              <input
-                type="email"
-                id="email"
-                placeholder="Enter email address"
-                required
-                aria-label="Email"
-              />
+              <label htmlFor="email">Grade</label>
+              <select name="" id="">
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+                <option value="">11</option>
+                <option value="">12</option>
+              </select>
             </div>
 
             {/* Login button */}
-            <button type="submit">Sign Up</button>
-            <p className="sign_up">
-              Already have an account? <Link to="/login">Login</Link>
-            </p>
+            <button type="submit">Proceed</button>
           </form>
         </div>
       </div>

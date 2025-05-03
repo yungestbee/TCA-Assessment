@@ -13,8 +13,8 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/login" element={<LoginPage />} />
-          <Route path="/signup" element={<SignUpPage />} />
-          <Route path="/coding-assessment" element={<QuestionPage />} />
+          <Route path="/sign-in" element={<SignUpPage />} />
+          <Route path="/coding" element={<QuestionPage />} />
           {/* Add other routes here */}
         </Routes>
       </BrowserRouter>

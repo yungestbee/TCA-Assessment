@@ -17,7 +17,7 @@ export const LoginPage = () => {
           </div>
           {/* Login form container */}
           <form onSubmit={handleSubmit}>
-            <h3>Log in with</h3>
+            <h3>Log in</h3>
 
             {/* Email input box */}
             <div className="input_box">
@@ -48,31 +48,10 @@ export const LoginPage = () => {
 
             {/* Login button */}
             <button type="submit">Log In</button>
-            <p className="sign_up">
-              Don't have an account? <Link to="/signup">Sign up</Link>
-            </p>
+           
           </form>
 
-          <p className="separator">
-            <span>or</span>
-          </p>
-
-          <div className="login_option">
-            {/* Google button */}
-            <div className="option">
-              <a href="#">
-                <img src="logos/google.png" alt="Google" />
-                <span>Google</span>
-              </a>
-            </div>
-            {/* Apple button */}
-            <div className="option">
-              <a href="#">
-                <img src="logos/apple.png" alt="Apple" />
-                <span>Apple</span>
-              </a>
-            </div>
-          </div>
+         
         </div>
       </div>
     </>
